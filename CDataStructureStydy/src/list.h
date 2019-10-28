@@ -17,6 +17,6 @@ struct list
 void init_list(struct list* list);
 
 //添加元素到列表中
-void add_element_to_list(struct list* list, void* element);
+void add_element_to_list(struct list* list, struct link_node* link);
 
 #endif // !_LIST_H_

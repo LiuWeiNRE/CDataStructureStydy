@@ -1,5 +1,6 @@
 ﻿D:\VisualStudio2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Project1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   list.c
   main.c
+f:\nre\c\cdatastructurestydy\cdatastructurestydy\src\main.c(75): warning C4133: “函数”: 从“list_element *”到“link_node *”的类型不兼容
   正在生成代码...
-  Project1.vcxproj -> C:\Users\Administrator\Desktop\CDataStructureStydy\Debug\CDataStructureStydy.exe
+  Project1.vcxproj -> F:\NRE\C\CDataStructureStydy\CDataStructureStydy\Debug\CDataStructureStydy.exe

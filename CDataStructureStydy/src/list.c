@@ -12,7 +12,20 @@ void init_list(struct list* list)
 	printf("list init succeed!\n");
 }
 
-void add_element_to_list(struct list* list, void* element)
+void add_element_to_list(struct list* list, struct link_node* link)
 {
-
+	struct link_node** temp = &(list->head);
+	if (*temp)
+	{
+		while ((*temp)->next)
+		{
+			temp = &((*temp)->next);
+		}
+		(*temp)->next = link;
+	}
+	else
+	{
+		*temp = link;
+	}
+	list->length++;
 }
